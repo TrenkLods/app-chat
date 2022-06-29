@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    position:fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(103, 125, 120);
+    padding: 5px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.name{
+    height: 35px;
+    background: beige;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    font-size: 15px;
+    font-weight: 300;
+}
+.input{
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    margin: 5px;
+    padding: 0 25px;
+    display: flex;
+    width: 100%;
+    outline: none;
+}
+.btn{
+    background: #222;
+    border: none;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.messages{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+}
+.messages>li{
+    padding: 12px;
+}
+.messages>li>span{
+    font-weight: 500;
+}
+.messages>li:nth-child(odd){
+    background: bisque;
+}
